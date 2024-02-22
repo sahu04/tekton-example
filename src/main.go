@@ -1,11 +1,15 @@
-package main
+package greeting
 
 import "fmt"
 
-func Sum(a, b int) int {
+func Add(a int, b int) int {
     return a + b
 }
 
-func main() {
-    fmt.Println("Sum:", Sum(1,2))
+func Mul(a int, b int) int {
+    return a * b
+}
+
+func main(){
+    fmt.Println("hello")
 }
